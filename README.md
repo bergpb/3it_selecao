@@ -1,5 +1,4 @@
-# Seleção 3itConsultoria
-##### Agradecemos seu interesse em participar de nosso processo seletivo para estágio.
->Para darmos continuidade neste processo, crie uma landing page usando o máximo de recursos possíveis (tags HTML), falando um pouco sobre você por exemplo e nos envie por aqui via pull request.
-##### P.s: É permitido usar algum frameworks front-end (bootstrap, materialize, etc).
-Aguardamos seu pull request.
+Olá, este projeto é referente ao processo seletivo para estágio.
+Foram utilizados Bootstrap e seus componentes, Google Fonts e Google Icons.
+Nenhum template foi utilizado, todos as partes foram criadas com componentes do bootstrap.
+
