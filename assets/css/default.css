@@ -1,0 +1,76 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  padding-top: 70px;
+  background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
+  background-image: url("https://static.pexels.com/photos/7919/pexels-photo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-direction: row;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.navbar{
+  opacity: 0.5;
+}
+
+.navtext {
+  font-family: 'Lobster', sans-serif;
+  color: #000;
+}
+
+.container {
+  background: #fff;
+  margin-top: 10px;
+  width: 550px;
+  min-height: 550px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  background: rgb(255, 255, 255); /* Fall-back for browsers that don't support rgba */
+  background: rgba(255, 255, 255, .5);
+}
+
+.menuContent {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  margin: 10px;
+  font-family: 'Bubbler One', sans-serif;
+  color: #000;
+}
+
+.box {
+  background: #000;
+  width: 177px;
+  height: 150px;
+  text-align: center;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  color: #fff;
+}
+
+.miniBox {
+  background: #000;
+  width: 177px;
+  height: 150px;
+  text-align: center;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+  color: #fff;
+}
+
+.box:hover{
+  opacity: 0.7;
+}
