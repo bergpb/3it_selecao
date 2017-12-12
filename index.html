@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Minha Landing Page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Desenvolvimento Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- bootstrap-css -->
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+<!--// bootstrap-css -->
+<!-- css -->
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+<!--// css -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!-- //font-awesome icons -->
+<!-- font -->
+<link href="//fonts.googleapis.com/css?family=Righteous&subset=latin-ext" rel="stylesheet">
+<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,700italic,700,400italic,300italic,300' rel='stylesheet' type='text/css'>
+<!-- //font -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/SmoothScroll.min.js"></script>
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+</head>
+<body>
+	<!-- header -->
+	<div class="header">
+		<div class="container">
+			<nav class="navbar navbar-default">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				  </button>
+					<div class="w3layouts-logo">
+						<h1><a href="index.html">Daniel <span>Narilton</span></a></h1>
+					</div>
+				</div>
+
+				<div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+					<nav>
+						<ul class="nav navbar-nav">
+							<li class="active"><a href="index.html">Home</a></li>
+							
+						</ul>
+					</nav>
+				</div>
+				<!-- /.navbar-collapse -->
+			</nav>
+		</div>
+	</div>
+	<!-- //header -->
+	<!-- banner -->
+	<div class="banner">
+		<div class="container">
+			<section class="slider">
+					<div class="flexslider">
+						<ul class="slides">
+							<li>	
+								<div class="banner_text">
+									<h3>Qualidade de Projeto</h3>
+									<div class="w3ls-line"> </div>
+									<p>Com disposição</p>
+								</div>
+							</li>
+							<li>	
+								<div class="banner_text">
+									<h3>Desenvolvimento ágil</h3>
+									<div class="w3ls-line"> </div>
+									<p>Bom Design </p>
+									
+								</div>
+							</li>
+						</ul>
+					</div>
+			</section>
+			<!-- flexSlider -->
+			<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" property="" />
+			<script defer src="js/jquery.flexslider.js"></script>
+			<script type="text/javascript">
+				$(window).load(function(){
+					$('.flexslider').flexslider({
+						animation: "slide",
+						start: function(slider){
+						$('body').removeClass('loading');
+						}
+					});
+				});
+			</script>
+			<!-- //flexSlider -->
+		</div>
+	</div>
+	<!-- //banner -->
+	<!-- services -->
+	<div class="services">
+		<div class="container">
+			<div class="services-main">
+				<div class="services-heading">
+					<h2>Serviços</h2>
+					<div class="agileits-line"> </div>
+				</div>
+				<div class="services-bottom">
+					<div class="services-grid">
+						<div class="col-md-6 services-grid-left">
+							<div class="services-icon"><i class="fa fa-envira" aria-hidden="true"></i></div> 
+							<div class="services-text">
+								<h4>Responsividade</h4>
+								<p>
+Crio interfaces 100% responsivas para uma variedade de tamanhos de tela e dispositivos.</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="col-md-6 services-grid-right">
+							<img src="images/3.jpg" alt="" />
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="services-grid">					
+						<div class="col-md-6 services-grid-right ulta-grid">
+							<img src="images/4.jpg" alt="" />
+						</div>
+						<div class="col-md-6 services-grid-left ulta-grid">
+							<div class="services-icon"><i class="fa fa-magnet" aria-hidden="true"></i></div> 
+							<div class="services-text">
+								<h4>Ergonomia</h4>
+								<p>Levo em conta a interação entre o designing de produtos, sistemas, processos e as pessoas que os utilizam.</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="services-grid">
+						<div class="col-md-6 services-grid-left">
+							<div class="services-icon"><i class="fa fa-cog" aria-hidden="true"></i></div> 
+							<div class="services-text">
+								<h4>Interatividade</h4>
+								<p>A maneira como os usuários interagem com a interface deve ser estimada com muito apreço.</p>
+							</div>
+							<div class="clearfix"> </div>
+						</div>
+						<div class="col-md-6 services-grid-right">
+							<img src="images/6.jpg" alt="" />
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	
+	<!--services -->
+	<!-- services-bottom -->
+	<div class="text-grid">
+		<div class="container">
+			<h4>Quem Sou Eu</h4>
+            <p>Meu nome é Daniel Narilton, estudo Análise e Desenvolvimento de Sistemas na Estácio de Sá. Já desenvolvi algumas aplicações front-end simples, criando um portfólio disponível <a href="https://codepen.io/Vigariuoluvi/organize/"> aqui </a>. Sempre me interessei por programação e design e por isso aprendi HTML, CSS e JavaScript: para resolver os meus próprios problemas, além de me divertir com as suas soluções. Também me interesso por GIMP, Photoshop, SQL e Java. Gosto tanto do back-end quanto do front-end mais prefiro o segundo. Também possuo um  <a href="http://olharquirguiz.blogspot.com.br/2017/06/este-artigo-fala-sobre-importancia-de.html">blog </a>onde às vezes escrevo algo relacionado à web em geral. </p>
+		</div>
+	</div>
+	<!-- //services-bottom -->
+	<!-- blog -->
+	<div class="blog">
+		<div class="container">
+			<div class="services-heading">
+				<h3>Minhas Skills </h3>
+				<div class="agileits-line"> </div>
+			</div>
+			<div class="agileinfo-blog-grids">
+				<div class="col-md-4 wthree-blog">
+					<div class="w3-agileits-blog">
+						<div class="w3-agileits-blog-img">
+							<a href="single.html"><img src="images/7.jpg" alt="" /></a>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-4 wthree-blog">
+					<div class="w3-agileits-blog">
+						<div class="w3-agileits-blog-img">
+							<a href="single.html"><img src="images/8.png" alt="" /></a>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-md-4 wthree-blog">
+					<div class="w3-agileits-blog">
+						<div class="w3-agileits-blog-img">
+							<a href="single.html"><img src="images/9.png" alt="" /></a>
+						</div>
+						
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!-- //blog -->
+	<!-- footer -->
+	<div class="footer">
+		<div class="container">
+			<div class="agileinfo_footer_grids">
+				<div class="col-md-4 agileinfo_footer_grid">
+					<div class="agile-logo">
+						<h4><a href="index.html">Daniel<span>Narilton</span></a></h4>
+					</div>
+					<p>Procuro fornecer o melhor serviço sempre atento às mudanças tecnológicas no mundo do Desenvolvimento Web.</p>
+					<div class="agileinfo-social-grids">
+						<ul>
+							<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-rss"></i></a></li>
+							<li><a href="#"><i class="fa fa-vk"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-4 agileinfo_footer_grid">
+					<h3>Info para contato</h3>
+					<ul class="agileinfo_footer_grid_list">
+						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Rua Helenice Paiva Menezes, 508 <span>Fortaleza - Barra do Ceará</span></li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:info@example.com">danielmotohead@gmail.com</a></li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>(85)98537-0947</li>
+					</ul>
+				</div>
+				<div class="col-md-4 agileinfo_footer_grid">
+					
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="w3agile_footer_copy">
+				<p>&copy; 2017 Todos os Direitos Reservados | Design by Daniel Narilton </a></p>
+			</div>
+		</div>
+	</div>
+	<!-- //footer -->
+	<script type="text/javascript" src="js/move-top.js"></script>
+	<script type="text/javascript" src="js/easing.js"></script>
+	<!-- here stars scrolling icon -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+				var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+				};
+			*/
+								
+			$().UItoTop({ easingType: 'easeOutQuart' });
+								
+			});
+	</script>
+<!-- //here ends scrolling icon -->
+</body>	
+</html>
