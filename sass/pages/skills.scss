@@ -1,0 +1,101 @@
+/* skills styles*/
+.skills  {
+    background: $blue-theme;
+    color:#ffffff;
+    padding-top: 18%;
+
+    @media (min-width : 481px) and (max-width : 1024px) {
+      padding-top: 30%;
+    }
+
+    .hvr-bob {
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      box-shadow: 0 0 1px transparent;
+
+        &:hover{
+          -webkit-animation-name: hvr-bob-float, hvr-bob;
+          animation-name: hvr-bob-float, hvr-bob;
+          -webkit-animation-duration: .3s, 1.5s;
+          animation-duration: .3s, 1.5s;
+          -webkit-animation-delay: 0s, .3s;
+          animation-delay: 0s, .3s;
+          -webkit-animation-timing-function: ease-out, ease-in-out;
+          animation-timing-function: ease-out, ease-in-out;
+          -webkit-animation-iteration-count: 1, infinite;
+          animation-iteration-count: 1, infinite;
+          -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+          -webkit-animation-direction: normal, alternate;
+          animation-direction: normal, alternate;
+        }
+
+        .service-item{
+          margin-bottom: 25px;
+          cursor: pointer;
+
+          &:hover{
+            -webkit-transform: translate(10px,5px);
+            -ms-transform: translate(10px,5px);
+            transform: translate(0px,-10px);
+            z-index: 3;
+            transition: .5s;
+          }
+
+          h4{
+            font-size:20px;
+          }
+        }
+
+        @-webkit-keyframes hvr-bob {
+          0% {
+            -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+          }
+          50% {
+            -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+          }
+          100% {
+            -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+          }
+        }
+
+        @keyframes hvr-bob {
+          0% {
+            -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+          }
+          50% {
+            -webkit-transform: translateY(-4px);
+            transform: translateY(-4px);
+          }
+          100% {
+            -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+          }
+        }
+
+        @-webkit-keyframes hvr-bob-float {
+          100% {
+            -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+          }
+        }
+        @keyframes hvr-bob-float {
+          100% {
+            -webkit-transform: translateY(-8px);
+            transform: translateY(-8px);
+          }
+        }        
+    }    
+
+    .circle-skill{
+        width:30px!important; 
+        height:30px!important;
+        border-radius:50%;
+    }
+}

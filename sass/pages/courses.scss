@@ -1,0 +1,77 @@
+/*courses styles*/
+.courses{
+	h1{
+		color: $blue-theme;
+	}
+
+	.graduations{
+		margin-bottom: 50px;		
+
+     	h3{
+     		color: $blue-theme;
+     		font-weight: 700;
+     		font-style: italic;
+     		text-decoration: underline;
+     	}
+
+     	.graduations-options{
+     		display: flex;
+			justify-content: flex-start;
+			flex-direction: row;
+			flex-wrap: wrap;
+
+     		.graduation-box{
+				width: 23%;
+				//box-shadow: 0 0px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+				padding: 30px 10px;
+				border: 1px solid rgba(0,0,0,.1);
+				margin-right: 15px;
+				margin-bottom: 15px;
+
+				&:hover{
+					border: 1px solid rgba(0,0,0,.3);
+				}
+
+				@media(max-width: 480px){
+					width: 100%;
+				}			
+
+				.fa{
+					font-size: 40px;
+					color: $blue-theme;
+				}
+			}
+     	}		
+	}
+
+	.interests{
+		h3{
+			color: $blue-theme;
+     		font-weight: 700;
+     		font-style: italic;
+     		text-decoration: underline;
+		}
+	}
+
+	.tags a{
+		background-color:#ffffff; 
+		border: 1px solid rgba(0,0,0,.1);
+		padding:10px; 
+		color:#333333; 
+		display:inline-block; 
+		font-size:14px; 
+		text-transform: uppercase; 
+		line-height:11px; 
+		border-radius:2px; 
+		margin-bottom:5px; 
+		margin-right:2px; 
+		text-decoration:none;
+		cursor: pointer;
+
+		&:hover{
+			background-color:$blue-theme;
+			color: #ffffff;
+		}
+	}
+	
+}

@@ -1,0 +1,47 @@
+/*references styles*/
+.references{
+	background-color: $blue-theme;
+	color: #ffffff;
+	min-height: 630px;
+}
+
+
+.quotes-references{
+	blockquote {
+	    border-left: none; 
+	    margin: 0;	    
+		margin-bottom: 50px;
+		border: 4px solid rgba(255,255,255,.2);
+		padding: 30px;
+
+		&:hover{
+			border: 4px solid rgba(255,255,255,1);
+		}
+
+	    img {
+		    margin-bottom: 10px;
+		}
+
+		p{
+			color: #ffffff;
+			text-align: left;
+
+			&:before {
+			    content: "\f10d";
+			    font-family: 'Fontawesome';
+			    float: left;
+			    margin-right: 10px;
+			}
+		}
+
+		.name-reference{
+			font-weight: 700;
+			display: block;
+		}
+
+		.company-reference{
+			font-size: 14px;
+			font-style: italic;
+		}
+	}
+} 
