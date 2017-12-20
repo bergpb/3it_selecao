@@ -53,13 +53,17 @@ h3{
 	margin: 10px 10px;
 }
 
+.img-center {
+  margin:0 auto;
+}
+
 footer { 
     background-color: #3d2447;
     color: #ecf0f1;
 }
 
-.img-center {
-	margin:0 auto;
+a {
+  color: #343a40;
 }
 
 
@@ -156,7 +160,7 @@ section.resume-section {
 
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh; }
+    min-height: 65vh; }
     section.resume-section .resume-item .resume-date {
       min-width: 18rem;
       }
