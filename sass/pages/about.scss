@@ -1,0 +1,38 @@
+/* about styles*/
+.about{
+  h1{
+    color: $blue-theme;
+  }  
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;  
+
+  .about-box{
+    box-shadow: 0 0px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 50px 10px;
+    width: 22%;
+    z-index: 2;
+    background: #ffffff;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: -240px;
+    @include border-radius-little2;
+
+    @media (max-width : 480px) {
+      width: 100%;
+      margin-bottom: 0px;
+      position: static;
+    }
+    
+    p{
+      font-size: 16px;
+    }
+
+    h3{
+      color: $blue-theme;
+    }    
+  }   
+}

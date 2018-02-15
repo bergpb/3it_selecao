@@ -1,0 +1,149 @@
+/* header styles */
+.header {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: url(../img/imagem-capa.jpg) no-repeat center center fixed;
+  margin-top:0px;
+  @include background-size-cover; 
+  @include no-select-text;
+
+  @media (min-width : 1600px) {
+     height: 50%;
+  }
+
+    .header-mask{
+      color:#ffffff;    
+      text-align:center;
+      width: 100%;
+      height: 100%;        
+      position:absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      @include mask-gradient-header;
+
+      .header-title{
+        h1{
+            font-size:90px;
+            font-family: 'Raleway', sans-serif;
+            font-weight: lighter;
+
+            @media(max-width : 480px){
+              font-size:45px;
+            }
+        }
+
+        h3{
+          font-size:32px;
+          opacity: .7;
+          font-family: 'Raleway', sans-serif;
+          font-weight: lighter;
+          color: #ffffff;
+
+          @media(max-width : 480px){
+              font-size:23px;
+            }
+        }
+      }
+
+      .social{
+        margin-bottom: 30px;
+        .social-medias{
+          margin:10px;
+          font-size:30px; 
+          color:#ffffff;   
+          transition: .5s;
+
+          &:hover{
+            color:#ffffff;
+          }
+
+          &:focus{
+            color:#ffffff;
+          }
+        }
+      }
+
+      .header-menu{
+        .hvr-sweep-to-right {
+          display: inline-block;
+          vertical-align: middle;
+          -webkit-transform: perspective(1px) translateZ(0);
+          transform: perspective(1px) translateZ(0);
+          box-shadow: 0 0 1px transparent;
+          position: relative;
+          -webkit-transition-property: color;
+          transition-property: color;
+          -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+          outline: none;
+          background-color: transparent;
+          border: 2px solid #ffffff;
+          font-weight: 700;
+          color: #ffffff;
+          font-size: 16px;
+          padding: 8px;
+          margin: 2px;
+          min-width: 128px;
+          border-radius: 0px; 
+
+          &:before{
+            content: "";
+            position: absolute;
+            z-index: -1;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: #ffffff;
+            -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+            -webkit-transform-origin: 0 50%;
+            transform-origin: 0 50%;
+            -webkit-transition-property: transform;
+            transition-property: transform;
+            -webkit-transition-duration: 0.3s;
+            transition-duration: 0.3s;
+            -webkit-transition-timing-function: ease-out;
+            transition-timing-function: ease-out;
+            outline: none;
+          }
+
+          &:hover{
+            color: $gray-lighter;
+            outline: none;
+          }
+
+          &:focus{
+            color: $gray-lighter;
+            outline: none;
+          }
+
+          &:active{
+            color: $gray-lighter;
+            outline: none;
+          }
+
+          &:hover:before{
+             -webkit-transform: scaleX(1);
+              transform: scaleX(1);
+              outline: none;
+          }
+
+          &:focus:before{
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            outline: none;
+          }
+
+          &:active:before{
+            -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+            outline: none;
+          }
+        }
+      }
+  }
+}

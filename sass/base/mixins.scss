@@ -1,0 +1,62 @@
+@mixin no-select-text{
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@mixin background-size-cover{
+	-webkit-background-size: cover;
+    -moz-background-size: cover;    
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+}
+
+@mixin mask-gradient-header{
+	background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1)); 
+    background: -webkit-linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1));  
+    background: -moz-linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1));  
+    background: -o-linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.1)); 
+}
+
+@mixin border-radius-little2{
+	border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+@mixin transition-thumbmail{
+	-webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    -ms-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+@mixin transition-navbar{
+    -webkit-transition: .5s ease-out;
+    -moz-transition: .5s ease-out;
+    -o-transition: .5s ease-out;
+    -ms-transition: .5s ease-out;
+    transition: .5s ease-out;
+}
+
+@mixin shadow-navbar-mobile{
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  -webkit-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  -moz-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  -o-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  -ms-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+@mixin box-shadow{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -webkit-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -moz-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -o-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    -ms-box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
