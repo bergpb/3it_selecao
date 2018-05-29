@@ -1,0 +1,87 @@
+a:hover {
+	color:#eca928!important;
+}
+
+.navigation li:before {
+content:'';
+background:#eca928!important;
+}
+
+.sep1 {
+background:#eca928!important;
+}
+
+.sep2 {
+background:#eca928!important;
+}
+
+.np-controls a:hover i {
+color:#eca928!important;
+}
+
+#filter-list li:hover {
+background:#eca928!important;
+}
+
+#filter-list li.active {
+background:#eca928!important;
+  color: #2c383c;
+}
+
+.skills-bg span {
+background:#eca928;
+}
+
+.services-info ul li:hover {
+background:#eca928!important;
+}
+
+.link-post {
+background:#eca928!important;
+}
+
+.quote-post blockquote {
+color:#eca928!important;
+}
+
+.contact-form button {
+background:#eca928!important;
+}
+
+.contact-form button:hover {
+color:#eca928!important;
+}
+
+.social li a:hover {
+color:#eca928!important;
+}
+
+.reply {
+background:#eca928!important;
+}
+
+.reply:hover {
+color:#eca928!important;
+}
+
+.overlay {
+background:rgba(236,169,40,0.9)!important;
+}
+
+.folio-img h4 ,
+.folio-img p ,
+.navigation li a ,
+.navigation li a i ,
+.navigation li a:hover, .navigation li a:hover i, .flex-active a, .flex-active a i ,
+#filter-list li:hover ,
+#filter-list li.active ,
+.link-post i ,
+.link-post a ,
+.link-post a:hover ,
+.reply ,
+.contact-form button {
+color:#4e503b;
+	color: #fff !important;
+}
+
+

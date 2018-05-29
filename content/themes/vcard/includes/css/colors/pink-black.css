@@ -1,0 +1,88 @@
+a:hover {
+	color:#fd6b6b!important;
+}
+
+.navigation li:before {
+content:'';
+background:#fd6b6b!important;
+}
+
+.sep1 {
+background:#fd6b6b!important;
+}
+
+.sep2 {
+background:#fd6b6b!important;
+}
+
+.np-controls a:hover i {
+color:#fd6b6b!important;
+}
+
+#filter-list li:hover {
+background:#fd6b6b!important;
+}
+
+#filter-list li.active {
+background:#fd6b6b!important;
+  color: #2c383c;
+}
+
+.skills-bg span {
+background:#fd6b6b!important;
+}
+
+.services-info ul li:hover {
+background:#fd6b6b!important;
+}
+
+.link-post {
+background:#fd6b6b!important;
+}
+
+.quote-post blockquote {
+color:#fd6b6b!important;
+}
+
+.contact-form button {
+background:#fd6b6b!important;
+}
+
+.contact-form button:hover {
+color:#fd6b6b!important;
+}
+
+.social li a:hover {
+color:#fd6b6b!important;
+}
+
+.reply {
+background:#fd6b6b!important;
+}
+
+.reply:hover {
+color:#fd6b6b!important;
+}
+
+.overlay {
+background:rgba(253,107,107,0.9)!important;
+}
+
+.folio-img h4 ,
+.folio-img p ,
+.navigation li a ,
+.navigation li a i ,
+.navigation li a:hover, .navigation li a:hover i, .flex-active a, .flex-active a i ,
+#filter-list li:hover ,
+#filter-list li.active ,
+.link-post i ,
+.link-post a ,
+.link-post a:hover ,
+.reply ,
+.contact-form button {
+color:#4e503b;
+	color: #fff !important;
+}
+
+
+
