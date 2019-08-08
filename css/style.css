@@ -1,0 +1,259 @@
+/* Global Layout */
+* {
+    box-sizing: border-box;
+}
+
+/* Base Styles */
+    
+header {
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Signika', sans-serif;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin: 0;
+    border-bottom: 4px solid #f89b21;
+    text-align: center;
+}
+
+p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+    color: #231f20;
+}
+
+li {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+    color: #231f20;
+    list-style-type: none;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #231f20;
+}
+
+header {
+    background: #f89b21;
+    border-bottom: 10px solid #f28400;
+    color: #ffffff;
+}
+
+footer {
+    background: #f28400;
+    padding: 5px 0;
+    margin-top: 50px;
+}
+
+footer > p {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 0.9em;
+    text-align: center;
+    color: #ffffff;
+}
+
+
+/* Main Styles */
+
+.wrapper {
+    margin: 0px auto;
+    padding: 8px 0;
+    width: 80%;
+}
+
+.wrapper-header {
+    text-align: center;
+}
+
+.wrapper-header > h1 {
+    font-family: 'Signika', sans-serif;
+    font-size: 2em;
+    margin: 0;
+    border: 0;
+    text-transform: none;
+}
+
+.wrapper-header > h2 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+    margin: 8px 0;
+}
+
+.contact > ul,
+.skills > ul,
+.softwares > ul {
+    padding: 0;
+}
+
+.profile-pic {
+    display: block;
+    max-width: 180px;
+    margin: 15px auto 15px;
+    border-radius: 100%;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+}
+
+.skills-softwares {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.skills {
+    align-content: flex-start;
+    width: 48%;
+}
+
+.softwares {
+    align-content: flex-end;
+    width: 48%;
+}
+
+.responsibilities > ul {
+    padding-left: 20px;
+}
+
+.resp-list > li {
+    list-style-type: disc;
+}
+
+.info-year {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.info-year > h2 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
+
+.info-year > p {
+    font-family: 'Oxygen', sans-serif;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.course > p,
+.experience-list > p {
+    margin-top: 0;
+    font-style: italic;
+}
+
+.languages {
+    margin-bottom: 10px;
+}
+
+.language > h2 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1em;
+    display: inline-block;
+    margin-bottom: 0;
+}
+
+.language > p {
+    display: inline-block;
+    margin: 0;
+}
+
+.contact-list {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+}
+
+.contact-list-items {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.contact-list > li {
+    padding: 6px 0;
+}
+
+.contact-list-items > svg {
+    margin-right: 10px;
+}
+
+#contact-adress {
+    align-self: baseline;
+}
+
+/* Styles for larger screens */
+
+@media screen and (min-width: 1024px) {
+    
+    body {
+        background: #ededed;
+    }
+        
+    .wrapper {
+        width: 80%;
+        margin-top: 0;
+    }
+    
+    .card{
+        background: #ffffff;
+        max-width: 80%;
+        margin: 0 auto;
+        padding: 30px 0;
+        box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    }
+    
+    .photo-about {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }   
+    
+    .photo {
+        align-content: flex-start;
+        width: 30%;
+    }
+    
+    .profile-pic {
+        max-width: 225px;
+    }
+
+    .about {
+        align-content: flex-end;
+        font-size: 110%;
+        width: 64%;
+    }
+    
+    footer {
+        margin: 0;
+    }
+}
+
+/* Styles for smaller screens */
+
+@media screen and (max-width: 480px) {
+    .skills-softwares {
+        flex-flow: column wrap;
+    }
+    .skills,
+    .softwares {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
